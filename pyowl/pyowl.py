@@ -11,8 +11,8 @@ from sklearn.utils.extmath import safe_sparse_dot
 from sklearn.isotonic import isotonic_regression
 from sklearn.preprocessing import LabelBinarizer
 
-from fista import fista
-from loss import get_loss
+from pyowl.fista import fista
+from pyowl.loss import get_loss
 
 
 def prox_owl(v, w):

@@ -13,7 +13,7 @@ http://www.jmlr.org/proceedings/papers/v51/figueiredo16.pdf
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.linear_model import Lasso
-from pyowl import OwlRegressor
+from pyowl.pyowl import OwlRegressor
 
 n_samples = 10
 n_features = 100
