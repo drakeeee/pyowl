@@ -3,7 +3,7 @@
 
 import numpy as np
 from numpy.testing import assert_array_almost_equal
-from pyowl import prox_owl
+from pyowl.pyowl import prox_owl
 
 rng = np.random.RandomState(0)
 
